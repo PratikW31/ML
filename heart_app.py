@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 21 13:31:28 2022
-
-@author: KTong
-"""
 
 import os
 import pickle
