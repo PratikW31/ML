@@ -24,8 +24,7 @@ with open(MODEL_PICKLE_PATH,'rb') as file:
 
 st.title('Cardiovascular Disease **Predictor**')
 
-st.image('https://www.uwa.edu.au/-/media/Faculties/HMS/Primary-Images/Cardiovasculardiseaseepidemiology-2000_x_1000.jpg?w=1230&h=675&cw=1230&ch=675&ap=&hash=FC69F4AC09B539B27FA4DE3FF542436A', 
-          caption='Model of human heart. Source from https://www.uwa.edu.au/Research/Cardiovascular-Disease-Epidemiology')
+st.image('https://www.uwa.edu.au/-/media/Faculties/HMS/Primary-Images/Cardiovasculardiseaseepidemiology-2000_x_1000.jpg?w=1230&h=675&cw=1230&ch=675&ap=&hash=FC69F4AC09B539B27FA4DE3FF542436A')
 
 with st.form("my_form"):
     st.info("This app predicts your risk of getting cardiovascular disease (CVD).")
@@ -58,4 +57,3 @@ with st.form("my_form"):
             st.success('You have a low risk to get cardiovascular disease, take care!')
             st.balloons()
 
-st.caption('This model is built based on Heart Attack Analysis & Prediction Dataset on **kaggle**, source link https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset')
